@@ -28,10 +28,10 @@ settings.load_default = function ()
         a=255,
     })
 
-    menu.set_value(menu.ref_by_command_name("setfuelmodgaspercentagetextcolorred"), color_data.r)
-    menu.set_value(menu.ref_by_command_name("setfuelmodgaspercentagetextcolorgreen"), color_data.g)
-    menu.set_value(menu.ref_by_command_name("setfuelmodgaspercentagetextcolorblue"), color_data.b)
-    menu.set_value(menu.ref_by_command_name("setfuelmodgaspercentagetextcoloropacity"), color_data.a)
+    menu.set_value(menu.ref_by_command_name("set_fuel_mod_gas_percentage_text_colorred"), color_data.r)
+    menu.set_value(menu.ref_by_command_name("set_fuel_mod_gas_percentage_text_colorgreen"), color_data.g)
+    menu.set_value(menu.ref_by_command_name("set_fuel_mod_gas_percentage_text_colorblue"), color_data.b)
+    menu.set_value(menu.ref_by_command_name("set_fuel_mod_gas_percentage_text_coloropacity"), color_data.a)
 
     menu.set_value(settings.stand.set_show_gas_percentage_text_position_x, utilities.float_to_stand(config_handler:get("show_gas_percentage_text_pos_x", 0.15)))
     menu.set_value(settings.stand.set_show_gas_percentage_text_position_y, utilities.float_to_stand(config_handler:get("show_gas_percentage_text_pos_y", 0.15)))
