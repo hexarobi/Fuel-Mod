@@ -97,7 +97,7 @@ function enable_script()
                             utilities.formatNumber(vehicle_percentage, 1) .. "%",
                             ALIGN_TOP_LEFT,
                             text_scale,
-                            text_color,
+                            {r=text_color.r/255, g=text_color.g/255, b=text_color.b/255, a=text_color.a/255},
                             true
                     )
                 end
